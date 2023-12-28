@@ -1,0 +1,33 @@
+.favorite-button-active {
+  color: red; 
+}
+
+.favorite-button-inactive {
+  color: grey;
+}
+
+
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 345px;
+  height: 410px; 
+  overflow-y: auto; 
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.cardImage {
+  height: 150px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 16px; 
+}
